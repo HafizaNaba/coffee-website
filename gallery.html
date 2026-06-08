@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+<body>
+<style>
+
+
+@font-face {
+    font-family: "Parisienne-Regular.ttf";
+    src: url(fonts/Parisienne-Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(207, 168, 154);
+}
+h1{
+text-align: center;
+      font-family: "Parisienne-Regular.ttf";
+      font-size: 80px;
+      color: rgb(77, 10, 10);
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card-menu{
+    width: 350px;
+    background-color:cornsilk ;
+    box-shadow: 0px 10px 20px grey;
+    border-radius: 8px;
+    overflow: hidden;
+margin: 20px;
+}
+.card-menu img{
+    height: 300px;
+    width: 100%;
+
+}
+.card-text{
+    padding: 16px;
+}
+.card-text h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-text p{
+color: var(--text-color);
+font-size: 15px;
+line-height: 20px;
+}
+.card-text .btn{
+    display: inline-block;
+    padding: 8px 16px ;
+    border-radius: 4px;
+    background-color: rgb(207, 168, 154);
+    text-decoration: none;
+    margin-top: 16px;
+    color: aliceblue;
+}
+.btn:hover{
+    color: rgb(207, 168, 154);
+    background-color :cornsilk;
+    border: 2px groove rgb(207, 168, 154);
+}
+.card-menu{
+    transition: 2s;
+    box-shadow: 0px 10px 20px rgb(121, 120, 120);
+    margin-bottom: 80px;
+}
+.card-menu:hover{
+    transform:rotateX(360deg)
+}
+#btnn{
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+margin-left: 600px;
+margin-bottom: 20px;
+
+}
+#btnn a{
+    text-decoration: none;
+    text-decoration: white;
+}
+
+#btnn:hover{
+background: #020024;
+background: linear-gradient(90deg, rgb(21, 11, 151) 0%, rgb(199, 141, 131) 35%, rgb(154, 218, 218) 100%);
+color: white;
+border: 2px groove white;
+}
+</style>
+
+
+
+<h1>Coffee Menu</h1>
+
+    <div class="cards-container">
+
+<div class="card-menu">
+<img src="img/caramel latte.jpg" alt="" >
+<div class="card-text">
+<h3>Caremel Latte</h3>
+<p>A smooth blend of rich espresso, creamy milk, and sweet caramel flavor.
+Perfect for coffee lovers who enjoy a warm, sweet, and comforting drink. ☕✨</p>
+<a href="#" class="btn">Order Now!</a>
+</div>
+</div>
+
+<div class="card-menu">
+<img src="img/gennady-zakharin-WOJrz0_BZmE-unsplash.jpg" alt="">
+<div class="card-text">
+<h3>Chocolate Donuts</h3>
+<p>Chocolate Donuts
+Soft and fluffy donuts coated with rich, delicious chocolate glaze. A perfect sweet treat that melts in your mouth with every bite. 🍩🍫✨
+</p>
+<a href="#" class="btn">Order Now!</a>
+</div>
+</div>
+
+<div class="card-menu">
+<img src="img/krisztina-papp-g9jFg1utz1w-unsplash.jpg" alt="" >
+<div class="card-text">
+<h3>Coffee Ice cream</h3>
+<p>Creamy and refreshing ice cream infused with the rich flavor of premium coffee.
+A perfect dessert for coffee lovers who enjoy a cool and delicious treat. ☕🍨✨</p>
+<a href="#" class="btn">Order Now!</a>
+</div>
+</div>
+
+
+<div class="card-menu">
+<img src="img/lora-georgieva-wQV2Y5O3huE-unsplash.jpg" alt="" >
+<div class="card-text">
+<h3>Caramel Cake</h3>
+<p>Creamy and refreshing ice cream infused with the rich flavor of premium Cake.
+A perfect dessert for coffee lovers who enjoy a cool and delicious treat. ☕🍨✨</p>
+<a href="#" class="btn">Order Now!</a>
+</div>
+</div>
+
+<div class="card-menu">
+<img src="img/reshu-drolia-s8JdNqJJT2U-unsplash.jpg" alt="" >
+<div class="card-text">
+<h3>Cold Coffee</h3>
+<p>A refreshing blend of chilled coffee, milk, and ice for a smooth, energizing taste.
+Perfect for hot days when you need a cool and flavorful coffee boost. ☕🧊✨</p>
+<a href="#" class="btn">Order Now!</a>
+</div>
+</div>
+
+
+<div class="card-menu">
+<img src="img/sona-malkhasyan-Cu0ALTMJ9Z8-unsplash.jpg" alt="" >
+<div class="card-text">
+<h3>Double Chocolate Cookie</h3>
+<p>
+Loaded with rich cocoa and delicious chocolate chips for an extra chocolaty taste.
+Soft, chewy, and perfect for satisfying every chocolate craving. 🍪🍫☕✨</p>
+<a href="#" class="btn">Order Now!</a>
+</div>
+</div>
+
+    </div>
+    <button id="btnn">
+        <a href="index.html">Home Page</a>
+    </button>
+</body>
+</html>
